@@ -1,17 +1,17 @@
 <img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 
 
-# [Project Name] 🎯
+# [Reverse Calculator] 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: [God tharavu]
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Member 1: Dencil Sebastian - Adishankara institute of  engineering collae
+- Member 2: Anirudh Gugnu - Adishankara institute of  engineering collae
+
 
 ### Project Description
 [2-3 lines about what your project does]
@@ -30,10 +30,6 @@ For Software:
 - [Libraries used]
 - [Tools used]
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
 
 ### Implementation
 For Software:
@@ -88,9 +84,9 @@ For Hardware:
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- [Anirudh Gugnu]: [Idea contributions,Coding]
+- [Dencil Sebastian]: [Testing ]
+
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
