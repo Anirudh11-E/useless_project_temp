@@ -60,7 +60,7 @@ npx react-native run-ios
 
 ## 📸 Screenshots
 
-> (Add screenshots with proper file names and captions in your repo)
+[> (Add screenshots with proper file names and captions in your repo)](https://drive.google.com/drive/u/0/folders/1RuXA-DSoTE9kD_6UNnCKN4dJxYy9BvPU)
 
 - **Home Screen** – Tap "Start Selection"
 - **Gameplay Screen** – Two users tap; colors change based on tap order
