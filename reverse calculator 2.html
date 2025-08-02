@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Opposite Calculator 🤡</title>
+  <style>
+    body {
+      font-family: "Comic Sans MS", cursive, sans-serif;
+      background: #fff0f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .calculator {
+      border: 3px dashed #ff69b4;
+      padding: 25px;
+      border-radius: 15px;
+      background: #fff;
+      box-shadow: 0 0 15px pink;
+      text-align: center;
+    }
+    input {
+      margin: 5px;
+      padding: 8px;
+      width: 90px;
+      border: 2px solid #ff69b4;
+      border-radius: 5px;
+    }
+    button {
+      margin: 5px;
+      padding: 10px 15px;
+      background-color: #ffe4e1;
+      border: 2px solid #ff1493;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    button:hover {
+      background-color: #ffc0cb;
+    }
+    #result {
+      margin-top: 15px;
+      font-size: 1.2em;
+    }
+    #snark {
+      margin-top: 10px;
+      color: #888;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <div class="calculator">
+    <h2>Opposite Calculator 🤪</h2>
+    <p>Think you're calculating? Think again... 😈</p>
+    <input type="number" id="num1" placeholder="Number 1">
+    <input type="number" id="num2" placeholder="Number 2"><br>
+
+    <button onclick="doOpposite('add')">➕ Add</button>
+    <button onclick="doOpposite('subtract')">➖ Subtract</button>
+    <button onclick="doOpposite('multiply')">✖️ Multiply</button>
+    <button onclick="doOpposite('divide')">➗ Divide</button>
+
+    <div id="result">Result: 🤔</div>
+    <div id="snark"></div>
+  </div>
+
+  <script>
+    function doOpposite(operation) {
+      const num1 = parseFloat(document.getElementById('num1').value);
+      const num2 = parseFloat(document.getElementById('num2').value);
+      let result;
+      let snarkyComment = "";
+
+      if (isNaN(num1) || isNaN(num2)) {
+        result = "🚫 Please enter real numbers, genius.";
+        snarkyComment = "Even a calculator needs numbers. 🤷‍♂️";
+      } else {
+        switch (operation) {
+          case 'add':
+            result = num1 - num2;
+            snarkyComment = "You thought you added? Nope, I subtracted! 😏";
+            break;
+          case 'subtract':
+            result = num1 + num2;
+            snarkyComment = "Subtracted? Nah, I added those bad boys. 😂";
+            break;
+          case 'multiply':
+            result = num1 / num2;
+            snarkyComment = "Multiplied? Pfft. I divided 'em. 🧠";
+            break;
+          case 'divide':
+            result = num1 * num2;
+            snarkyComment = "Divide? Never heard of it. I multiplied! 💪";
+            break;
+        }
+      }
+
+      document.getElementById('result').textContent = `Result: ${result}`;
+      document.getElementById('snark').textContent = snarkyComment;
+    }
+  </script>
+</body>
+</html>
